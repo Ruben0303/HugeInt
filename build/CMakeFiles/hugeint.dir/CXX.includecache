@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/huge_int.h
+iostream
+-
+vector
+-
+algorithm
+-
+
+/home/ruben/Desktop/Homeworks/Huge_Int/lib/huge_int.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+huge_int.h
+/home/ruben/Desktop/Homeworks/Huge_Int/lib/huge_int.h
+
